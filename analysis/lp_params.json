@@ -1,0 +1,12 @@
+{
+  "formula": "lap_time = base + off[c] + eff_deg[c] * tire_age * track_temp",
+  "params": {
+    "off_SOFT": -1.9855303555621866,
+    "off_MEDIUM": -0.7502013024149063,
+    "off_HARD": 0.0,
+    "eff_deg_SOFT": 0.0101714936759643,
+    "eff_deg_MEDIUM": 0.00407191827598801,
+    "eff_deg_HARD": 0.001935832094350012
+  },
+  "note": "eff_deg = deg * temp_coeff combined"
+}
